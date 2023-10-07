@@ -15,7 +15,7 @@ namespace Ma.Crypto.SM2.Test
 
         static void Main(string[] args)
         {
-            SM2Crypto sm2 = new SM2Crypto(key, string.Empty, SM2Crypto.Mode.C1C2C3, true);
+            SM2Crypto sm2 = new SM2Crypto(key, string.Empty, SM2Crypto.Mode.C1C3C2, true);
 
             string str = "{\"idcard\":\"8888\",\"phone\":\"13812345678\",\"deviceId\":\"001\"}";
 

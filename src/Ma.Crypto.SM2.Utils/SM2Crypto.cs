@@ -9,7 +9,7 @@ namespace Ma.Crypto.SM2.Utils
 {
     public class SM2Crypto
     {
-        public SM2Crypto(string pubkey, string privkey, Mode mode = Mode.C1C2C3, bool isPkcs8 = false)
+        public SM2Crypto(string pubkey, string privkey, Mode mode = Mode.C1C3C2, bool isPkcs8 = false)
         {
             if (pubkey != null)
                 this.pubkey = pubkey;
